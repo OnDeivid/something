@@ -10,9 +10,9 @@ app.use(express.json());
 app.use(cors()); // Allows frontend to communicate
 
 const pusher = new Pusher({
-    appId: "1955203",
-    key: "ef16c9fb0777ee3b1eef",
-    secret: "91b6bc8e6d59f7dcae44",
+    appId: "1955447",
+    key: "825cb99923b8b343513f",
+    secret: "6aa203825b74346582db",
     cluster: "eu",
     useTLS: true
 });
